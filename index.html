@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Sistema Car  </title>
+        <link rel="stylesheet" href="estilo.css">
+      
+	</head>
+	<body>
+           <h1 >Sistema Car </h1>
+        
+           <p align="justify"><i><b>O módulo Cadastro de Veículo</i></b>  tem como objetivo cadastrar veículos em manutenção na empresa. Com ele é possível registrar o<br> modelo do veículo, proprietário, placa. Para facilitar o trabalho do ramo de oficina  oficina de automóveis, loja de autopeças.</p>
+         
+        
+
+		<div id="box">
+            <fieldset>
+		<form>
+            <div class="form-group">
+		    <label for="exampleInputNome">Nome do Proprietário:</label>
+		    <input type="nome" class="form-control" id="exampleInputNome1" placeholder="Nome">
+          </div><br>
+          <div class="form-group">
+		    <label for="exampleInputEmail">E-mail:</label>
+		    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="E-mail">
+		  </div><br>
+		  <div class="form-group">
+		    <label for="exampleInputCarro">Telefone:</label>
+		    <input type="telefone" class="form-control" id="exampleInputTelefone1" placeholder="Telefone">
+		  </div><br>
+		  <div class="form-group">
+		    <label for="exampleInputCarro">Modelo do Carro:</label>
+		    <input type="carro" class="form-control" id="exampleInputCarro1" placeholder="Carro">
+		  </div><br>
+		  <div class="form-group">
+			<label for="ano">Ano Fabricação:</label>
+			<input type="number" name="ano" id="ano" min="1990" step="1" max="2021" class="form-control" tabindex="3">
+		  </div><br>
+		  <div class="form-group">
+		    <label for="exampleInputPlaca1">Placa:</label>
+		    <input type="placa" class="form-control" id="exampleInputPlaca1" placeholder="Placa">
+		  </div><br>
+		  <div class="form-group">
+		    <label for="exampleInputFile">Selecione a foto do carro</label>
+		    <input type="file" id="exampleInputFile">
+		    
+		  </div><br>
+		  <div class="checkbox">
+		    <label>
+		      <input type="checkbox"> Eu li e aceito os termos de uso.
+		    </label>
+		  </div>
+		  <button type="submit" value="aviso" class="btn btn-default" onclick="aviso()">Enviar</button>
+		  <script src="alert.js"></script>
+		</form>
+    </div>
+</fieldset>
+
+	</body>
+</html>
